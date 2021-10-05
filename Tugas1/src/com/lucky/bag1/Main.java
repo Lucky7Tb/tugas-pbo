@@ -4,6 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 	    Barang barang1 = new Barang("BRG-001", "Tas Gucci");
+        Barang barang3 = new Barang("BRG-003", "Koper", 150);
+
+
 	    Barang barang2 = new Barang("BRG-002", "Printer Epson L355");
 
 	    barang1.setHarga(1200);
@@ -13,7 +16,7 @@ public class Main {
         System.out.println();
 	    barang2.printData();
 
-        Barang barang3 = new Barang("BRG-003", "Kopoer", 150);
+
         Barang barang4 = new Barang("BRG-004", "Helm", 20);
 
         barang3.printData();
