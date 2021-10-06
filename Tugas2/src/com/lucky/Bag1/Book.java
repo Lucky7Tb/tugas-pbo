@@ -1,4 +1,4 @@
-package com.lucky;
+package com.lucky.Bag1;
 
 public class Book {
     private String isbn;

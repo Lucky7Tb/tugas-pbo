@@ -1,4 +1,4 @@
-package com.lucky;
+package com.lucky.Bag1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
