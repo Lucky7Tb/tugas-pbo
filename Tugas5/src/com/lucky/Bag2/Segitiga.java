@@ -16,3 +16,4 @@ public class Segitiga {
 		System.out.println("Keliling segitiga: " + keliling);
 	}
 }
+
