@@ -58,13 +58,13 @@ public class Main extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         FoodNameField = new javax.swing.JTextField();
         FoodTypeField = new javax.swing.JComboBox<>();
-        FoodRatingField = new javax.swing.JSpinner();
         SaveButton = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         FoodCaloriesField = new javax.swing.JSpinner();
+        FoodRatingField = new javax.swing.JSpinner();
         jScrollPane1 = new javax.swing.JScrollPane();
         FoodTable = new javax.swing.JTable();
         SearchField = new javax.swing.JTextField();
@@ -137,8 +137,8 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(jLabel4))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(FoodRatingField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(FoodCaloriesField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(FoodCaloriesField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(FoodRatingField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(36, 36, 36)
                 .addComponent(SaveButton)
                 .addContainerGap())

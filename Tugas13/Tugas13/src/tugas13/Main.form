@@ -142,8 +142,8 @@
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="FoodRatingField" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="FoodCaloriesField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="FoodRatingField" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                   <Component id="SaveButton" min="-2" max="-2" attributes="0"/>
@@ -168,8 +168,6 @@
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
           </AuxValues>
-        </Component>
-        <Component class="javax.swing.JSpinner" name="FoodRatingField">
         </Component>
         <Component class="javax.swing.JButton" name="SaveButton">
           <Properties>
@@ -200,6 +198,8 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JSpinner" name="FoodCaloriesField">
+        </Component>
+        <Component class="javax.swing.JSpinner" name="FoodRatingField">
         </Component>
       </SubComponents>
     </Container>
